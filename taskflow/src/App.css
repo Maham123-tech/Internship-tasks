@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Top Section */
+.top-section {
+  background: linear-gradient(135deg, #11324e, #00f2fe);
+  color: white;
+  padding: 50px 20px;
+}
+
+.top-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: white;
+  border: none;
+  color: #093b67;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.top-section button:hover {
+  background: #f0f0f0;
+}
+
+/* Features */
+.features {
+  padding: 40px 20px;
+  background: #e9ecef;
+}
+.feature-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.feature {
+  background: rgb(79, 106, 167);
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+.icon {
+  font-size: 30px;
+}
+
+/* Reviews */
+.reviews {
+  padding: 40px 20px;
+}
+.review-list blockquote {
+  background:rgb(130, 158, 228);;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+/* Pricing */
+.pricing {
+  padding: 40px 20px;
+  background: #f9f9f9;
+}
+.pricing-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.plan {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1 1 200px;
+  max-width: 250px;
+}
+.plan button {
+  padding: 8px 15px;
+  background: #4facfe;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.plan button:hover {
+  background: #3c8ce7;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background: #333;
+  color: white;
+}
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .feature-list,
+  .pricing-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+}
